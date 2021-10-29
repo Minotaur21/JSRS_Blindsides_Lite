@@ -2,13 +2,14 @@ This is a patch to improve performance when using JSRS and Blindside's Weapon Re
 
 How to install:
 
-1) You will need to install ALL THREE required mods in the order shown below. Read the mod descriptions for instructions on how to install them.
+1) This patch requires three additional mods. You will need to install ALL THREE required mods in the order shown below. I recommend using a mod manager such as Mod Organizer.
+   Read the mod descriptions for instructions on how to install them.
  - JSRS Sound: https://www.moddb.com/mods/stalker-anomaly/addons/solarint-gunshot-overhaul
+   - The JSRS download has multiple folders. Make sure you install the Main JSRS mod and the "Cracks + Impacts" mod that is included. 
  - Blindside's Weapon Reanimation: https://www.moddb.com/mods/stalker-anomaly/addons/blindsides-weapon-reanimation-and-rebalance-loner
  - Blindside's JSRS Patch: https://www.moddb.com/mods/stalker-anomaly/addons/blindsides-weapon-reanimation-and-rebalance-jsrs-patch
 
-2) Install this `JSRS+Blindsides Lite` mod.
- - I recommend using a mod manager such as Mod Organizer.
+2) Install this `JSRS-Blindsides Lite Patch` mod. Again, I recommend using a mod manager such as Mod Organizer. If you are updating from a previous version of JSRS-Blindsides Lite Patch, then delete the old version and install the new version.
  - If you want to install manually, just drag the gamedata folder into your Anomaly folder. Let it overwrite if it asks.
  - My mod will be incompatible with anything that overwrites the weapon_sounds.ltx file, so be careful if you install other mods after this.
  
@@ -24,6 +25,4 @@ The patch is a simple edit to reduce the overall number of sound layers per guns
 This will allow you to play in densely populated maps with lots of AI combat without losing too much performance or needing to remove JSRS.
 Please note that reduced sound layers means the sound quality will be slightly worse than JSRS's sound quality. That is a tradeoff you must be willing to make to improve performance.
 
-This sort of patch was originally created by `nb79` here for JSRS only: https://www.moddb.com/mods/stalker-anomaly/addons/jsrs-cheap-version
-I studied nb79's configs and used what I learned to reorganize Blindside's own JSRS Patch. All sound files in my patch originally come from JSRS, and credits for these sounds go to Solarint.
-Thanks to Solarint, Blindside, and nb79 for their work.
+Thanks to Solarint and Blindside for their work.
